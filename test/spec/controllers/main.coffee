@@ -17,3 +17,6 @@ describe 'Controller: MainCtrl', () ->
 
   it 'should attach a list of awesomeThings to the scope', () ->
     expect(scope.awesomeThings.length).toBe 3
+
+  it 'should attach a list of tasks to the scope', () ->
+    expect(scope.tasks.length).toBe 5

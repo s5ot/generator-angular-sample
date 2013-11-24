@@ -16,7 +16,7 @@
     <p>Finished Task: {{getDoneCount()}} / {{tasks.length}}
     <button ng-click="deleteDone()">Delete Finished</button>
     </p>
-    <ul>
+    <ul class='tasks'>
       <li ng-repeat="task in tasks">
       <input type="checkbox" ng-model="task.done">
       <span class="done-{{task.done}}">{{task.body}}</span>
